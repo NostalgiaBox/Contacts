@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		72034421238E090700238C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72034420238E090700238C4E /* AppDelegate.swift */; };
 		72034423238E090700238C4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72034422238E090700238C4E /* SceneDelegate.swift */; };
-		72034425238E090700238C4E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72034424238E090700238C4E /* MasterViewController.swift */; };
-		72034427238E090700238C4E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72034426238E090700238C4E /* DetailViewController.swift */; };
 		7203442A238E090700238C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72034428238E090700238C4E /* Main.storyboard */; };
 		7203442C238E090900238C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7203442B238E090900238C4E /* Assets.xcassets */; };
 		7203442F238E090900238C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7203442D238E090900238C4E /* LaunchScreen.storyboard */; };
+		72034437238E096300238C4E /* ContactsDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72034436238E096300238C4E /* ContactsDB.plist */; };
+		72034439238E09B700238C4E /* PlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72034438238E09B700238C4E /* PlistLoader.swift */; };
+		7203443B238E0A0100238C4E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203443A238E0A0100238C4E /* Contact.swift */; };
+		7203443D238E0A6D00238C4E /* ContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203443C238E0A6D00238C4E /* ContactListController.swift */; };
+		7203443F238E0A8E00238C4E /* ContactDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7203443E238E0A8E00238C4E /* ContactDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7203441D238E090700238C4E /* TestTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72034420238E090700238C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72034422238E090700238C4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72034424238E090700238C4E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		72034426238E090700238C4E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		72034429238E090700238C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7203442B238E090900238C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7203442E238E090900238C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72034430238E090900238C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72034436238E096300238C4E /* ContactsDB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactsDB.plist; sourceTree = "<group>"; };
+		72034438238E09B700238C4E /* PlistLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistLoader.swift; sourceTree = "<group>"; };
+		7203443A238E0A0100238C4E /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		7203443C238E0A6D00238C4E /* ContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListController.swift; sourceTree = "<group>"; };
+		7203443E238E0A8E00238C4E /* ContactDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				72034420238E090700238C4E /* AppDelegate.swift */,
 				72034422238E090700238C4E /* SceneDelegate.swift */,
-				72034424238E090700238C4E /* MasterViewController.swift */,
-				72034426238E090700238C4E /* DetailViewController.swift */,
 				72034428238E090700238C4E /* Main.storyboard */,
 				7203442B238E090900238C4E /* Assets.xcassets */,
 				7203442D238E090900238C4E /* LaunchScreen.storyboard */,
+				72034436238E096300238C4E /* ContactsDB.plist */,
 				72034430238E090900238C4E /* Info.plist */,
+				72034438238E09B700238C4E /* PlistLoader.swift */,
+				7203443A238E0A0100238C4E /* Contact.swift */,
+				7203443C238E0A6D00238C4E /* ContactListController.swift */,
+				7203443E238E0A8E00238C4E /* ContactDetailController.swift */,
 			);
 			path = TestTableView;
 			sourceTree = "<group>";
@@ -131,6 +140,7 @@
 				7203442F238E090900238C4E /* LaunchScreen.storyboard in Resources */,
 				7203442C238E090900238C4E /* Assets.xcassets in Resources */,
 				7203442A238E090700238C4E /* Main.storyboard in Resources */,
+				72034437238E096300238C4E /* ContactsDB.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7203443B238E0A0100238C4E /* Contact.swift in Sources */,
+				7203443F238E0A8E00238C4E /* ContactDetailController.swift in Sources */,
 				72034421238E090700238C4E /* AppDelegate.swift in Sources */,
 				72034423238E090700238C4E /* SceneDelegate.swift in Sources */,
-				72034425238E090700238C4E /* MasterViewController.swift in Sources */,
-				72034427238E090700238C4E /* DetailViewController.swift in Sources */,
+				72034439238E09B700238C4E /* PlistLoader.swift in Sources */,
+				7203443D238E0A6D00238C4E /* ContactListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
